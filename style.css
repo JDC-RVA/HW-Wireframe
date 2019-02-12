@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -7,13 +12,72 @@ body {
     margin: 0%;
 }
 
-header, nav {
+header, nav, footer {
     background: #ebebeb;
-    height: 50px;
-    text-align: center;
+    height: 100px;
     margin-top: 10px;
     margin-left: 250px;
     margin-right: 250px;
+    padding: 35px;
     width: 960px;
 }
 
+section {
+    float: left;
+    background: #ebebeb;
+    height: 300px;
+    width: 566px;;
+    margin-left: 250px;
+    padding-top: 35px;
+}
+
+#section {
+    margin-top: 20px;
+}
+
+article{
+    background: #777;
+    height: auto;
+    width: auto;
+    margin-top: 25px;
+    margin: 10px;
+    color: #ebebeb;
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #777;
+    height: auto;
+    width: auto;
+    background: #ebebeb;
+    
+}
+
+p {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    height: auto;
+    width: auto;;
+    background: #ebebeb;
+}
+
+aside {
+    float: left;
+    background: #ebebeb;
+    height: 300px;
+    width: 374px;;
+    margin-left: 20px;
+    padding-top: 35px; 
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
