@@ -12,10 +12,6 @@ body {
     margin: 0%;
 }
 
-.wrapper {
-    /* width: 960px; */
-}
-
 header, nav, footer {
     background: #ebebeb;
     height: 100px;
@@ -31,22 +27,18 @@ section {
     background: #ebebeb;
     height: 300px;
     width: 566px;
-    margin-left: 250px;
     padding-top: 35px;
-}
-
-#section {
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 250px;
 }
 
 article{
     background: #777;
-    height: auto;
-    width: auto;
     margin-top: 25px;
     margin: 10px;
     color: #ebebeb;
+    padding: 5px;
     padding-top: 20px;
 }
 
@@ -55,20 +47,19 @@ h1, h2, h3 {
     margin-left: 20px;
     margin-right: 20px;
     color: #777;
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
     background: #ebebeb;
-    
 }
 
 p {
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #777;
-    height: auto;
-    width: auto;;
+    /* height: auto; */
+    /* width: auto; */
     background: #ebebeb;
 }
 
@@ -78,11 +69,14 @@ aside {
     height: 300px;
     width: 374px;
     margin-left: 20px;
-    padding-top: 35px; 
+    padding-top: 35px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
+    margin-bottom: 10px;
   }
